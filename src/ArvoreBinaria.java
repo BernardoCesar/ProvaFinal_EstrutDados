@@ -27,6 +27,7 @@ public class ArvoreBinaria {
 		emOrdemRecursivo(raiz.dir);
 	}
 
+    //talvez usar int id como parametro
     public void pesquisar(Produto produto){
         if(raiz==null) {
 			return;

@@ -25,11 +25,13 @@ public class Util {
 
     
     public static void pesquisarP() {
-        
+        int id=Integer.parseInt(JOptionPane.showInputDialog("Insira o código do produto"));
+        arvore.pesquisar(id);
     }
 
     
     public static void imprimirPs() {
+        
         arvore.emOrdem();
     }
 
